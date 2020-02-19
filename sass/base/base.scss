@@ -1,0 +1,22 @@
+*,
+*::after ,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+// ----- Colors -----
+$color-darkest-grey: #505050;
+$color-dark-grey: #8696aa;
+$color-grey-light: #dcdcdc;
+$color-grey-med: #a7a7a7;
+$color-red: #fb133a;
+$color-red-border: #f0042c;
+$color-white: #ffffff;
+
+
+body {
+	box-sizing: border-box;
+	font-family: 'Roboto Condensed', sans-serif;
+}

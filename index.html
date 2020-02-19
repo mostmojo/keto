@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>Keto Challenge</title>
+</head>
+<body>
+	<header class="header-og">
+		<div class="header-container">
+			<div class="header-image">
+				<img src="./img/content.png" alt="content /">
+			</div>
+			<div class="header-product">
+				<img src="./img/product.png" alt="product" />
+			</div>
+		</div>
+		<div class="form-container">
+			<h1 class="form-container-title"><span class="step">Step 1</span> - Tell us where to send your bottle</h1>
+			<div class="main">
+				<div class="container">
+					<div class="form-section">
+						<h2 class="form-section__title">Log in</h2>
+						<form class="m-b" method="get" accept-charset="UTF=8">
+							<input type="hidden" name="action" value="users/login">
+							<div class="m-b">
+								<div class="row">
+									<div class="form__section--email">
+										<label class="label" for="loginName" type="text" name="loginName" value>Email</label>
+										<input class="input fw" id="loginName" type="text" name="loginName" value>
+									</div>
+									<div class="form__section--password">
+										<label class="label" for="password">Password</label>
+										<input class="input fw" id="password" type="password" name="password" value>
+										<a class="a" href="#">Forgot your password?</a>
+									</div>
+								</div>
+							</div>
+							<input id="js-login-button" class="inpt btn btn--active" type="submit" value="Login">
+						</form>
+						<p class="p-with-a">
+							Don't have an account?
+							<a class="a" href="#">Sign up here.</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+</body>
+</html>
