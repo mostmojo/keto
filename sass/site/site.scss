@@ -1,7 +1,8 @@
+// Image header
+
 .header-og {
 	display: flex;
 	justify-content: center;
-	/* align-items: center; */
 	position: relative;
 }
 
@@ -11,6 +12,7 @@
     left: 21%;
 }
 
+// Form
 .form-container {
 	padding: 0 5rem;
 }
@@ -99,6 +101,8 @@ input[type="submit"] {
 .a:hover {
 	border-bottom: 1px solid #505050;
 }
+
+// Button
 
 .btn {
 	border-bottom: 5px solid;
