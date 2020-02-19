@@ -7,12 +7,10 @@
 
 body {
   box-sizing: border-box;
-  font-family: 'Roboto Condensed', sans-serif; }
+  font-family: 'Arial', sans-serif; }
 
 .header-og {
   display: flex;
-  justify-content: center;
-  /* align-items: center; */
   position: relative; }
 
 .header-product {
@@ -29,7 +27,6 @@ body {
   padding: 0 2.25rem; }
 
 .form-section {
-  border: 1px solid #dcdcdc;
   margin-top: 3.375rem;
   padding: 2.25rem 5.625rem;
   position: relative; }
