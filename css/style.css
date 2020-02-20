@@ -74,7 +74,7 @@ a {
 
 .nav-button {
 	padding: 1rem 2rem;
-	background-color: #7cb27c;
+	background-color: #ea2727;
 	margin-left: 2rem;
 	cursor: pointer;
 	box-shadow: 0 2rem 5rem rgba(0,0,0,0.06);
@@ -84,8 +84,9 @@ a {
 }
 
 .nav-button:hover {
-	background-color: #699c69;
+	background-color: #a81616;
 }
+
 
 
 /* ---- Image header ---- */
