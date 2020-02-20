@@ -1,4 +1,28 @@
-/* Timer */
+/* ------------ Cookie ------------*/
+function ArbLogging(url, session_id) {
+    this.arb_event_endpoint = url;
+    this.arb_event_session_id = session_id;
+    this.arb_thread_id = Math.floor(Math.random() * 100000000);
+}
+
+ArbLogging.prototype.wyn_log_arb_event = function(payload) {
+    // console.log("wyn_log_arb_event ("+this.arb_thread_id+"):" + payload);
+
+    $.ajax({
+        url: this.arb_event_endpoint,
+        cache: false,
+        method: 'get',
+        dataType: 'json',
+        data: {
+            'p': JSON.stringify(payload),
+            's': this.arb_event_session_id,
+            't': this.arb_thread_id,
+            'ct': new Date().getTime()
+        }
+    });
+};
+
+/* ----------- Timer ----------- */
 
 function startTimer(duration, display) {
     var timer = duration,
