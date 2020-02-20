@@ -1,13 +1,58 @@
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0; }
+/* Global styles */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
 
 body {
-  box-sizing: border-box;
-  font-family: 'Arial', sans-serif; }
+	font-family: "Poppins", sans-serif;
+}
+
+h1 {
+	font-size: 2.6rem;
+}
+
+li, button, label, input, p {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 4.8rem;
+}
+
+h3 {
+	font-size: 3rem;
+	font-weight: 400;
+}
+
+h4, h5 {
+	font-size: 2.8rem;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.warning {
+	background-color: #131c27;
+	color: white;
+}
+
+.warning-text {
+	font-size: 1rem;
+	text-align: center;
+	width: 90%;
+	margin: auto;
+	padding: 2rem 0;
+	min-height: 3vh;
+}
 
 /* ---- Image header ---- */
 
