@@ -60,6 +60,7 @@ a {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	padding: 0.5rem 0;
 }
 
 .nav-content {
@@ -87,7 +88,9 @@ a {
 	background-color: #a81616;
 }
 
-
+.logo {
+	height: 4rem;
+}
 
 /* ---- Image header ---- */
 
