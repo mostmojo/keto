@@ -53,6 +53,22 @@ a {
 	padding: 0.5rem 0;
 }
 
+/* Navigation banner with button */
+
+.nav-container {
+	background-color: #7D26CD;
+	color: #ffffff;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.nav-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
 /* ---- Image header ---- */
 
 .header-og {
